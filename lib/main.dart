@@ -11,10 +11,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Container(
-          color: Colors.purple,
-          //Container always takes child:
-          // child: Text("This is a Container."),
+        body: Column(
+          children: [
+            Text("child : 1"),
+            SizedBox(
+              height: 10,
+            ),
+            Text("child : 2"),
+            Text("child : 3"),
+            Text("child : 4"),
+            Text("child : 5"),
+          ],
         ),
       ),
     );
