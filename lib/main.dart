@@ -11,7 +11,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Text("Hello WOrld"),
+        body: Container(
+          height: 100,
+          width: 100,
+          color: Colors.purple,
+        ),
       ),
     );
   }
