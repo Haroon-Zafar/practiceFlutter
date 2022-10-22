@@ -19,15 +19,24 @@ class MyApp extends StatelessWidget {
                 width: 100,
                 color: Colors.purple,
               ),
+              SizedBox(
+                height: 10,
+              ),
               Container(
                 height: 100,
                 width: 100,
                 color: Colors.green,
               ),
+              SizedBox(
+                height: 10,
+              ),
               Container(
                 height: 100,
                 width: 100,
                 color: Colors.red,
+              ),
+              SizedBox(
+                height: 10,
               ),
               Container(
                 height: 100,
