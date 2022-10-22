@@ -25,6 +25,11 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
+
+
+
+
+
 android {
     compileSdkVersion 30
 
@@ -66,3 +71,5 @@ flutter {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
+
+id 'com.google.gms.google-services'
